@@ -15,8 +15,8 @@
 # Input: 2 2 1 3 2
 # Output: 7
 
-bush = list(map(int, input("Введите количество ягод через пробел на кустах: "
-                          ).split()))
+bush = list(map(int, input("Введите количество ягод через пробел на кустах: ")
+                .split()))
 bush.extend([list(bush)[0], list(bush)[1]])
 max_sum = 0
 for i in range(len(bush)-2):
