@@ -17,9 +17,7 @@ def defines_rhyme(list_1):
     dict_1 = {}
     for word in list_1:
         dict_1[word] = vowel(word)
-    print(dict_1)
     first_value = dict_1[next(iter(dict_1))]
-    print(first_value)
     for key, value in dict_1.items():
         if value != first_value:
             return 'Пам парам'
